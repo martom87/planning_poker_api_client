@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/tomal/RubymineProjects/planning_poker/spec/client/client_services/client_requests/make_team_member_service_spec.rb @ line 18 :
+
+    [1;34m13[0m: 
+    [1;34m14[0m: 
+    [1;34m15[0m:   context [31m[1;31m'[0m[31mwhen team with id does not exist[1;31m'[0m[31m[0m [32mdo[0m
+    [1;34m16[0m: 
+    [1;34m17[0m:     it [31m[1;31m'[0m[31man error message is passed[1;31m'[0m[31m[0m [32mdo[0m
+ => [1;34m18[0m:       binding.pry
+    [1;34m19[0m:       response = make_team_member_service.call
+    [1;34m20[0m:       expect(response.dig([31m[1;31m'[0m[31mmembers_amount[1;31m'[0m[31m[0m).join).to eq(error_message)
+    [1;34m21[0m:     [32mend[0m
+    [1;34m22[0m:   [32mend[0m
+    [1;34m23[0m: 
+
